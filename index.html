@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Adventure - Free Bootstrap 4 Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Qatar Airways</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="places.html" class="nav-link">Places</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
+          <div class="col-md-9 ftco-animate mb-5 pb-5 text-center text-md-left" data-scrollax=" properties: { translateY: '70%' }">
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Experience the World <br>with Qatar Airways</h1>
+            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Experience unparalleled luxury and global connectivity</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="ftco-section justify-content-end ftco-search">
+    	<div class="container-wrap ml-auto">
+    		<div class="row no-gutters">
+          <div class="col-md-12 nav-link-wrap">
+            <div class="nav nav-pills justify-content-center text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Flight</a>
+
+              <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Hotel</a>
+
+              <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Car Rent</a>
+            </div>
+          </div>
+          <div class="col-md-12 tab-wrap">
+            
+            <div class="tab-content p-4 px-5" id="v-pills-tabContent">
+
+              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
+              	<form action="#" class="search-destination">
+              		<div class="row">
+              			<div class="col-md align-items-end">
+              				<div class="form-group">
+              					<label for="#">From</label>
+	              				<div class="form-field">
+	              					<div class="icon"><span class="icon-my_location"></span></div>
+					                <input type="text" class="form-control" placeholder="From">
+					              </div>
+				              </div>
+              			</div>
+              			<div class="col-md align-items-end">
+              				<div class="form-group">
+              					<label for="#">Where</label>
+              					<div class="form-field">
+	              					<div class="icon"><span class="icon-map-marker"></span></div>
+					                <input type="text" class="form-control" placeholder="Where">
+					              </div>
+				              </div>
+              			</div>
+              			<div class="col-md align-items-end">
+              				<div class="form-group">
+              					<label for="#">Check In</label>
+              					<div class="form-field">
+	              					<div class="icon"><span class="icon-map-marker"></span></div>
+					                <input type="text" class="form-control checkin_date" placeholder="Check In">
+					              </div>
+				              </div>
+              			</div>
+              			<div class="col-md align-items-end">
+              				<div class="form-group">
+              					<label for="#">Check Out</label>
+              					<div class="form-field">
+	              					<div class="icon"><span class="icon-map-marker"></span></div>
+					                <input type="text" class="form-control checkout_date" placeholder="From">
+					              </div>
+				              </div>
+              			</div>
+              			<div class="col-md align-items-end">
+              				<div class="form-group">
+              					<label for="#">Travelers</label>
+              					<div class="form-field">
+	              					<div class="select-wrap">
+			                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+			                      <select name="" id="" class="form-control">
+			                      	<option value="">1</option>
+			                        <option value="">2</option>
+			                        <option value="">3</option>
+			                        <option value="">4</option>
+			                        <option value="">5</option>
+			                      </select>
+			                    </div>
+					              </div>
+				              </div>
+              			</div>
+              			<div class="col-md align-self-end">
+              				<div class="form-group">
+              					<div class="form-field">
+					                <input type="submit" value="Search" class="form-control btn btn-primary">
+					              </div>
+				              </div>
+              			</div>
+              		</div>
+              	</form>
+              </div>
+
+              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-performance-tab">
+              	<form action="#" class="search-destination">
+              		<div class="row">
+              			<div class="col-md align-items-end">
+              				<div class="form-group">
+              					<label for="#">Check In</label>
+              					<div class="form-field">
+	              					<div class="icon"><span class="icon-map-marker"></span></div>
+					                <input type="text" class="form-control checkin_date" placeholder="Check In">
+					              </div>
+				              </div>
+              			</div>
+              			<div class="col-md align-items-end">
+              				<div class="form-group">
+              					<label for="#">Check Out</label>
+              					<div class="form-field">
+	              					<div class="icon"><span class="icon-map-marker"></span></div>
+					                <input type="text" class="form-control checkout_date" placeholder="From">
+					              </div>
+				              </div>
+              			</div>
+              			<div class="col-md align-items-end">
+              				<div class="form-group">
+              					<label for="#">Guest</label>
+              					<div class="form-field">
+	              					<div class="select-wrap">
+			                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+			                      <select name="" id="" class="form-control">
+			                      	<option value="">1</option>
+			                        <option value="">2</option>
+			                        <option value="">3</option>
+			                        <option value="">4</option>
+			                        <option value="">5</option>
+			                      </select>
+			                    </div>
+					              </div>
+				              </div>
+              			</div>
+              			<div class="col-md align-self-end">
+              				<div class="form-group">
+              					<div class="form-field">
+					                <input type="submit" value="Search" class="form-control btn btn-primary">
+					              </div>
+				              </div>
+              			</div>
+              		</div>
+              	</form>
+              </div>
+
+              <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-effect-tab">
+              	<form action="#" class="search-destination">
+              		<div class="row">
+              			<div class="col-md align-items-end">
+              				<div class="form-group">
+              					<label for="#">Where</label>
+              					<div class="form-field">
+	              					<div class="icon"><span class="icon-map-marker"></span></div>
+					                <input type="text" class="form-control" placeholder="Where">
+					              </div>
+				              </div>
+              			</div>
+              			<div class="col-md align-items-end">
+              				<div class="form-group">
+              					<label for="#">Check In</label>
+              					<div class="form-field">
+	              					<div class="icon"><span class="icon-map-marker"></span></div>
+					                <input type="text" class="form-control checkin_date" placeholder="Check In">
+					              </div>
+				              </div>
+              			</div>
+              			<div class="col-md align-items-end">
+              				<div class="form-group">
+              					<label for="#">Check Out</label>
+              					<div class="form-field">
+	              					<div class="icon"><span class="icon-map-marker"></span></div>
+					                <input type="text" class="form-control checkout_date" placeholder="From">
+					              </div>
+				              </div>
+              			</div>
+              			<div class="col-md align-self-end">
+              				<div class="form-group">
+              					<div class="form-field">
+					                <input type="submit" value="Search" class="form-control btn btn-primary">
+					              </div>
+				              </div>
+              			</div>
+              		</div>
+              	</form>
+              </div>
+            </div>
+          </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section bg-light">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-4">
+    				<div class="intro ftco-animate">
+    					<h3><span>01</span> Travel</h3>
+    					<p> Explore a world of possibilities with Qatar Airways. We take you to over 160 destinations across the globe, connecting you to vibrant cultures, breathtaking landscapes, and unforgettable experiences.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="intro ftco-animate">
+    					<h3><span>02</span> Experience</h3>
+    					<p> Qatar Airways goes beyond just transportation. We offer unparalleled comfort and in-flight service, from our award-winning Qsuites to world-renowned hospitality. Discover a new level of travel experience curated for your comfort and enjoyment.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="intro ftco-animate">
+    					<h3><span>03</span> Relax</h3>
+    					<p>Escape the everyday and unwind in our luxurious cabins. Sink into spacious seats, indulge in our exceptional cuisine, and let our attentive staff cater to your every need. Arrive at your destination feeling refreshed and ready to explore.</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-section">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h2 class="mb-4">See our latest vacation ideas</h2>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-4 ftco-animate">
+        		<a href="#" class="destination-entry img" style="background-image: url(images/destination-1.jpg);">
+        			<div class="text text-center">
+        				<h3>Beachfront Scape</h3>
+        			</div>
+        		</a>
+        	</div>
+        	<div class="col-md-4 ftco-animate">
+        		<a href="#" class="destination-entry img" style="background-image: url(images/destination-2-1.jpg);">
+        			<div class="text text-center">
+        				<h3>Group Holidays</h3>
+        			</div>
+        		</a>
+        	</div>
+        	<div class="col-md-4 ftco-animate">
+        		<a href="#" class="destination-entry img" style="background-image: url(images/destination-3.jpg);">
+        			<div class="text text-center">
+        				<h3>City Breaks</h3>
+        			</div>
+        		</a>
+        	</div>
+        </div>
+    	</div>
+    </section>
+		
+		<section class="ftco-about d-md-flex">
+    	<div class="one-half img" style="background-image: url(images/about.jpg);"></div>
+    	<div class="one-half ftco-animate">
+        <div class="heading-section ftco-animate ">
+          <h2 class="mb-4">About Qatar Airways: Soaring Above Expectations</h2>
+        </div>
+        <div>
+  				<p>Qatar Airways, the national carrier of the State of Qatar, is more than just an airline; we are your gateway to the world. Founded in 1993, we have grown into a multi-award-winning global leader in aviation, recognized for our unwavering commitment to excellence and innovation.
+
+					Our extensive network connects you to over 170 destinations across six continents, seamlessly linking you to vibrant cultures, breathtaking landscapes, and unforgettable experiences.  We take pride in our state-of-the-art fleet, featuring the latest in comfort and technology.  Whether you're seeking luxurious Qsuites, spacious Economy seating, or exceptional Business Class amenities, we cater to every travel style and preference.</p>
+  			</div>
+    	</div>
+    </section>
+
+    <section class="ftco-section services-section bg-light">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block">
+              <div class="icon"><i class="bi bi-globe"></i></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Extensive Network</h3>
+                <p>Travel seamlessly with our vast network connecting over 170 destinations across six continents. We bring the world closer, opening doors to diverse cultures and experiences.</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block">
+              <div class="icon"><i class="bi bi-airplane"></i></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Award-Winning Fleet</h3>
+                <p>Experience comfort and innovation aboard our state-of-the-art fleet. Choose from spacious Economy seating, luxurious Qsuites featuring private cabins, and premium Business Class amenities.</p>
+              </div>
+            </div>    
+          </div>
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block">
+              <div class="icon"><i class="bi bi-headphones"></i></div>
+              <div class="media-body">
+                <h3 class="heading mb-3"> In-Flight Entertainment</h3>
+                <p>Stay entertained throughout your journey with our Oryx One entertainment system. Enjoy a curated selection of movies, TV shows, music, and games. Access Wi-Fi on most flights to stay connected.</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block">
+              <div class="icon"><i class="bi bi-cup-hot"></i></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Onboard Cuisine</h3>
+                <p>Indulge in our award-winning onboard dining experience. Savor delicious, globally-inspired dishes prepared with fresh, high-quality ingredients. We cater to diverse dietary needs and preferences.</p>
+              </div>
+            </div>      
+          </div>
+		  <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block">
+              <div class="icon"><i class="bi bi-laptop"></i></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Online Booking</h3>
+                <p>Book your flights, manage your reservations, and access trip information easily through our user-friendly website and mobile app.</p>
+              </div>
+            </div>      
+          </div>
+		  <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block">
+              <div class="icon"><i class="bi bi-router"></i></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Luxurious Airport Lounges</h3>
+                <p>Unwind and recharge in our exclusive airport lounges before your flight. Enjoy complimentary refreshments, Wi-Fi access, dedicated work areas, and comfortable seating.</p>
+              </div>
+            </div>      
+          </div>
+		  <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block">
+              <div class="icon"><i class="bi bi-car-front"></i></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Car Rentals</h3>
+                <p>In collaboration with trusted car rental partners at your destination airport or city, you can seamlessly book a car alongside your flight, ensuring convenient transportation upon arrival.</p>
+              </div>
+            </div>      
+          </div>
+		  <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block">
+              <div class="icon"><i class="bi bi-star"></i></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Privilege Club</h3>
+                <p>Join our Privilege Club, our exclusive loyalty program, and earn Qmiles with every flight. Redeem your Qmiles for future flights, upgrades, excess baggage allowance, and more.</p>
+              </div>
+            </div>      
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_1.jpg);" data-stellar-background-ratio="0.5">
+    	<div class="container">
+    		<div class="row justify-content-center">
+    			<div class="col-md-10">
+		    		<div class="row">
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		                <strong class="number" data-number="1000000">0</strong>
+		                <span>Happy Customers</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		                <strong class="number" data-number="170">0</strong>
+		                <span>Destination Places</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		                <strong class="number" data-number="200">0</strong>
+		                <span>Hotels</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		                <strong class="number" data-number="300">0</strong>
+		                <span>Restaurant</span>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+
+
+    <section class="ftco-section">
+    	<div class="container">
+				<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h2 class="mb-4"><strong>Popular</strong> Hotels</h2>
+          </div>
+        </div>    		
+    	</div>
+    	<div class="container-fluid">
+    		<div class="row">
+    			<div class="col-sm col-md-6 col-lg ftco-animate">
+    				<div class="destination">
+    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel-1.jpg);">
+    						<div class="icon d-flex justify-content-center align-items-center">
+    							<span class="icon-link"></span>
+    						</div>
+    					</a>
+    					<div class="text p-3">
+    						<div class="d-flex">
+    							<div class="one">
+		    						<h3><a href="#">The Chedi Muscat</a></h3>
+		    						<p class="rate">
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star-o"></i>
+		    							<span>8 Rating</span>
+		    						</p>
+	    						</div>
+	    						<div class="two">
+	    							<span class="price per-price">M8000.00<br><small>/night</small></span>
+    							</div>
+    						</div>
+    						<p>Luxurious rooms with world-class amenities</p>
+    						<hr>
+    						<p class="bottom-area d-flex">
+    							<span><i class="icon-map-o"></i> Muscat, Oman</span> 
+    							<span class="ml-auto"><a href="#">Book Now</a></span>
+    						</p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-sm col-md-6 col-lg ftco-animate">
+    				<div class="destination d-md-flex flex-column-reverse">
+    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel-2.jpg);">
+    						<div class="icon d-flex justify-content-center align-items-center">
+    							<span class="icon-link"></span>
+    						</div>
+    					</a>
+    					<div class="text p-3">
+    						<div class="d-flex">
+    							<div class="one">
+		    						<h3><a href="#">Shangri-La Hotel</a></h3>
+		    						<p class="rate">
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star-o"></i>
+		    							<span>8 Rating</span>
+		    						</p>
+	    						</div>
+	    						<div class="two">
+	    							<span class="price per-price">M7000.00<br><small>/night</small></span>
+    							</div>
+    						</div>
+    						<p>Beachfront hotel with stunning city views</p>
+    						<hr>
+    						<p class="bottom-area d-flex">
+    							<span><i class="icon-map-o"></i> Paris</span> 
+    							<span class="ml-auto"><a href="#">Book Now</a></span>
+    						</p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-sm col-md-6 col-lg ftco-animate">
+    				<div class="destination">
+    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel-3.jpg);">
+    						<div class="icon d-flex justify-content-center align-items-center">
+    							<span class="icon-link"></span>
+    						</div>
+    					</a>
+    					<div class="text p-3">
+    						<div class="d-flex">
+    							<div class="one">
+		    						<h3><a href="#">Rosewood London</a></h3>
+		    						<p class="rate">
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star-o"></i>
+		    							<span>9 Rating</span>
+		    						</p>
+	    						</div>
+	    						<div class="two">
+	    							<span class="price per-price">M10,000.00<br><small>/night</small></span>
+    							</div>
+    						</div>
+    						<p>Iconic hotel with rich cultural heritage</p>
+    						<hr>
+    						<p class="bottom-area d-flex">
+    							<span><i class="icon-map-o"></i> London</span> 
+    							<span class="ml-auto"><a href="#">Book Now</a></span>
+    						</p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-sm col-md-6 col-lg ftco-animate">
+    				<div class="destination d-md-flex flex-column-reverse">
+    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel-4.jpg);">
+    						<div class="icon d-flex justify-content-center align-items-center">
+    							<span class="icon-link"></span>
+    						</div>
+    					</a>
+    					<div class="text p-3">
+    						<div class="d-flex">
+    							<div class="one">
+		    						<h3><a href="#">The Peninsula</a></h3>
+		    						<p class="rate">
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star-o"></i>
+		    							<span>8 Rating</span>
+		    						</p>
+	    						</div>
+	    						<div class="two">
+	    							<span class="price per-price">M6500.00<br><small>/night</small></span>
+    							</div>
+    						</div>
+    						<p>Comfortable stay with private beaches</p>
+    						<hr>
+    						<p class="bottom-area d-flex">
+    							<span><i class="icon-map-o"></i> New York</span> 
+    							<span class="ml-auto"><a href="#">Book Now</a></span>
+    						</p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-sm col-md-6 col-lg ftco-animate">
+    				<div class="destination">
+    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel-5.jpg);">
+    						<div class="icon d-flex justify-content-center align-items-center">
+    							<span class="icon-link"></span>
+    						</div>
+    					</a>
+    					<div class="text p-3">
+    						<div class="d-flex">
+    							<div class="one">
+		    						<h3><a href="#">The Oberoi, Hotel</a></h3>
+		    						<p class="rate">
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star"></i>
+		    							<i class="icon-star-o"></i>
+		    							<span>8 Rating</span>
+		    						</p>
+	    						</div>
+	    						<div class="two">
+	    							<span class="price per-price">M12,000.00<br><small>/night</small></span>
+    							</div>
+    						</div>
+    						<p>Unique design with extravagant decor</p>
+    						<hr>
+    						<p class="bottom-area d-flex">
+    							<span><i class="icon-map-o"></i> Marrakech</span> 
+    							<span class="ml-auto"><a href="#">Book Now</a></span>
+    						</p>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-section testimony-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+            <h2 class="mb-4">Our Satisfied Customers Say:</h2>
+            <p>Discover what real travelers appreciate most about their Qatar Airways experience, from the award-winning comfort and service to the world-class onboard cuisine and attentive cabin crew.</p>
+          </div>
+        </div>
+        <div class="row ftco-animate">
+          <div class="col-md-12">
+            <div class="carousel-testimony owl-carousel ftco-owl">
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5" style="background-image: url(images/person_1.png)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text">
+                    <p class="mb-5">As a frequent flyer, I've experienced many airlines, but Qatar Airways truly stands out. From the luxurious Qsuites to the exceptional service, it's an unmatched travel experience. The best best experience ever!</p>
+                    <p class="name">Selloane Seisa</p>
+                    <span class="position">Marketing Manager</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5" style="background-image: url(images/person_2.png)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text">
+                    <p class="mb-5">I recently flew on Qatar Airways for a business trip and was blown away by the Qsuite. It's like having your own private cabin! I finally got a restful night's sleep on a long-haul flight, which is a rarity. </p>
+                    <p class="name">Mohau Mokoma</p>
+                    <span class="position">Architect</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5" style="background-image: url(images/person_3.png)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text">
+                    <p class="mb-5">I travel frequently for work, and my experience with Qatar Airways has been seamless every time. From booking and online check-in to the smooth boarding process and excellent in-flight service.</p>
+                    <p class="name">Thabo Lerole</p>
+                    <span class="position">Business Owner</span>
+                  </div>
+                </div>
+              </div>
+			  <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5" style="background-image: url(images/person_3.png)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text">
+                    <p class="mb-5">I travel frequently for work, and my experience with Qatar Airways has been seamless every time. From booking and online check-in to the smooth boarding process and excellent in-flight service.</p>
+                    <p class="name">Thabo Lerole</p>
+                    <span class="position">Business Owner</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved, By Qatar Airways</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
